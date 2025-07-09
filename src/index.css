@@ -1,0 +1,137 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+form, .editing{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 32rem;
+}
+
+input{
+    height: 2.4rem;
+    padding: .6rem 1.2rem;
+    border: .1rem solid rgb(179, 176, 176);
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+input::placeholder{
+    color: rgb(182, 182, 182);
+}
+
+textarea{
+    height: 6rem;
+    padding: .6rem 1.2rem;
+    border: .1rem solid rgb(179, 176, 176);
+    border-radius: 1rem;
+    font-size: 1.1rem;
+}
+
+textarea::placeholder{
+    color: rgb(182, 182, 182);
+}
+
+button{
+    width: 10rem;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: .8rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: black;
+    border: .1rem solid rgb(179, 176, 176);
+}
+
+.edit{
+    width: 10rem;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: .8rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.edit:hover{
+    background-color: #fff;
+    color: black;
+    border: .1rem solid rgb(179, 176, 176);
+}
+
+.delete{
+    width: 10rem;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: .8rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: .1rem solid rgb(179, 176, 176);
+}
+
+.delete:hover{
+    background-color: black;
+    color: white;
+}
+
+.buttons{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.post-card{
+    padding: 2rem;
+    border-radius: 1rem;
+    border: .1rem solid rgb(179, 176, 176);
+}
+
+h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: .1rem solid rgb(179, 176, 176);
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.blog{
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
